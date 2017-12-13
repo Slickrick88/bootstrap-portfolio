@@ -60,10 +60,15 @@ h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  /* color: #fff; */
   text-align: center;
   /* text-decoration: none; */
   background: #4aaaa5;
+}
+
+
+#name{
+  color: #fff;
 }
 
 /* nav { */
@@ -82,6 +87,11 @@ h3 {
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
+}
+
+.navbar-header:hover{
+  background: #4aaaa5;
+  width: 250px;
 }
 
 .navbar-nav a:first-child {
@@ -103,7 +113,7 @@ h3 {
 /* sidebar */
 
 .sidebar {
-  float: right;
+  /* float: right; */
   width: 100%;
   /* max-width: 270px; */
   padding: 30px;
@@ -138,8 +148,8 @@ h3,
 }
 
 .main-section {
-  float: left;
-  width: 100%;
+  /* float: left; */
+  /* width: 100%; */
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
